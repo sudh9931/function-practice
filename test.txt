@@ -55,3 +55,13 @@ def read_email_from_gmail():
         print(str(e))
 
 read_email_from_gmail()
+
+
+
+=====================
+
+import docx2txt
+!pip install docx2txt
+
+a = docx2txt.process('testword.docx')
+print(a)
